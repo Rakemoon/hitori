@@ -27,9 +27,12 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@eslint/js", "npm:9.1.1"],\
+          ["@types/node", "npm:20.12.7"],\
+          ["@types/node-fetch", "npm:2.6.11"],\
           ["@whiskeysockets/baileys", "virtual:497656a17601a4882d28f59c07ffdb7b9ad480911ed5783ef535135c33cfe30c179ca04236831220debe10bada9f98a6169976626f85cab0e964978ea0529793#npm:6.6.0"],\
           ["eslint", "npm:9.1.0"],\
           ["globals", "npm:15.0.0"],\
+          ["node-fetch", "npm:3.3.2"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"],\
           ["typescript-eslint", "virtual:497656a17601a4882d28f59c07ffdb7b9ad480911ed5783ef535135c33cfe30c179ca04236831220debe10bada9f98a6169976626f85cab0e964978ea0529793#npm:7.7.0"]\
         ],\
@@ -366,6 +369,17 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/node-fetch", [\
+      ["npm:2.6.11", {\
+        "packageLocation": "../../../C:/Users/Noforty/AppData/Local/Yarn/Berry/cache/@types-node-fetch-npm-2.6.11-55289bb1a8-10c0.zip/node_modules/@types/node-fetch/",\
+        "packageDependencies": [\
+          ["@types/node-fetch", "npm:2.6.11"],\
+          ["@types/node", "npm:20.12.7"],\
+          ["form-data", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/semver", [\
       ["npm:7.5.8", {\
         "packageLocation": "../../../C:/Users/Noforty/AppData/Local/Yarn/Berry/cache/@types-semver-npm-7.5.8-26073743d7-10c0.zip/node_modules/@types/semver/",\
@@ -652,7 +666,7 @@ const RAW_RUNTIME_STATE =
           ["cache-manager", "npm:4.0.1"],\
           ["futoin-hkdf", "npm:1.5.3"],\
           ["jimp", null],\
-          ["libphonenumber-js", "npm:1.10.60"],\
+          ["libphonenumber-js", "npm:1.10.61"],\
           ["libsignal", "https://github.com/adiwajshing/libsignal-node.git#commit=11dbd962ea108187c79a7c46fe4d6f790e23da97"],\
           ["link-preview-js", null],\
           ["music-metadata", "npm:7.14.0"],\
@@ -988,6 +1002,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["data-uri-to-buffer", [\
+      ["npm:4.0.1", {\
+        "packageLocation": "../../../C:/Users/Noforty/AppData/Local/Yarn/Berry/cache/data-uri-to-buffer-npm-4.0.1-5c66a78beb-10c0.zip/node_modules/data-uri-to-buffer/",\
+        "packageDependencies": [\
+          ["data-uri-to-buffer", "npm:4.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["debug", [\
       ["npm:4.3.4", {\
         "packageLocation": "../../../C:/Users/Noforty/AppData/Local/Yarn/Berry/cache/debug-npm-4.3.4-4513954577-10c0.zip/node_modules/debug/",\
@@ -1251,6 +1274,17 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["fetch-blob", [\
+      ["npm:3.2.0", {\
+        "packageLocation": "../../../C:/Users/Noforty/AppData/Local/Yarn/Berry/cache/fetch-blob-npm-3.2.0-28e01becfc-10c0.zip/node_modules/fetch-blob/",\
+        "packageDependencies": [\
+          ["fetch-blob", "npm:3.2.0"],\
+          ["node-domexception", "npm:1.0.0"],\
+          ["web-streams-polyfill", "npm:3.3.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["file-entry-cache", [\
       ["npm:8.0.0", {\
         "packageLocation": "../../../C:/Users/Noforty/AppData/Local/Yarn/Berry/cache/file-entry-cache-npm-8.0.0-5b09d19a83-10c0.zip/node_modules/file-entry-cache/",\
@@ -1348,6 +1382,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["formdata-polyfill", [\
+      ["npm:4.0.10", {\
+        "packageLocation": "../../../C:/Users/Noforty/AppData/Local/Yarn/Berry/cache/formdata-polyfill-npm-4.0.10-e03013c013-10c0.zip/node_modules/formdata-polyfill/",\
+        "packageDependencies": [\
+          ["formdata-polyfill", "npm:4.0.10"],\
+          ["fetch-blob", "npm:3.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["futoin-hkdf", [\
       ["npm:1.5.3", {\
         "packageLocation": "../../../C:/Users/Noforty/AppData/Local/Yarn/Berry/cache/futoin-hkdf-npm-1.5.3-fdce783897-10c0.zip/node_modules/futoin-hkdf/",\
@@ -1430,9 +1474,12 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["hitori", "workspace:."],\
           ["@eslint/js", "npm:9.1.1"],\
+          ["@types/node", "npm:20.12.7"],\
+          ["@types/node-fetch", "npm:2.6.11"],\
           ["@whiskeysockets/baileys", "virtual:497656a17601a4882d28f59c07ffdb7b9ad480911ed5783ef535135c33cfe30c179ca04236831220debe10bada9f98a6169976626f85cab0e964978ea0529793#npm:6.6.0"],\
           ["eslint", "npm:9.1.0"],\
           ["globals", "npm:15.0.0"],\
+          ["node-fetch", "npm:3.3.2"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"],\
           ["typescript-eslint", "virtual:497656a17601a4882d28f59c07ffdb7b9ad480911ed5783ef535135c33cfe30c179ca04236831220debe10bada9f98a6169976626f85cab0e964978ea0529793#npm:7.7.0"]\
         ],\
@@ -1591,10 +1638,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["libphonenumber-js", [\
-      ["npm:1.10.60", {\
-        "packageLocation": "../../../C:/Users/Noforty/AppData/Local/Yarn/Berry/cache/libphonenumber-js-npm-1.10.60-9a32dd0d01-10c0.zip/node_modules/libphonenumber-js/",\
+      ["npm:1.10.61", {\
+        "packageLocation": "../../../C:/Users/Noforty/AppData/Local/Yarn/Berry/cache/libphonenumber-js-npm-1.10.61-5e4efda6ee-10c0.zip/node_modules/libphonenumber-js/",\
         "packageDependencies": [\
-          ["libphonenumber-js", "npm:1.10.60"]\
+          ["libphonenumber-js", "npm:1.10.61"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1787,6 +1834,27 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["node-cache", "npm:5.1.2"],\
           ["clone", "npm:2.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["node-domexception", [\
+      ["npm:1.0.0", {\
+        "packageLocation": "../../../C:/Users/Noforty/AppData/Local/Yarn/Berry/cache/node-domexception-npm-1.0.0-e1e813b76f-10c0.zip/node_modules/node-domexception/",\
+        "packageDependencies": [\
+          ["node-domexception", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["node-fetch", [\
+      ["npm:3.3.2", {\
+        "packageLocation": "../../../C:/Users/Noforty/AppData/Local/Yarn/Berry/cache/node-fetch-npm-3.3.2-5267e015f2-10c0.zip/node_modules/node-fetch/",\
+        "packageDependencies": [\
+          ["node-fetch", "npm:3.3.2"],\
+          ["data-uri-to-buffer", "npm:4.0.1"],\
+          ["fetch-blob", "npm:3.2.0"],\
+          ["formdata-polyfill", "npm:4.0.10"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2434,6 +2502,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../C:/Users/Noforty/AppData/Local/Yarn/Berry/cache/uuid-npm-9.0.1-39a8442bc6-10c0.zip/node_modules/uuid/",\
         "packageDependencies": [\
           ["uuid", "npm:9.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["web-streams-polyfill", [\
+      ["npm:3.3.3", {\
+        "packageLocation": "../../../C:/Users/Noforty/AppData/Local/Yarn/Berry/cache/web-streams-polyfill-npm-3.3.3-f24b9f8c34-10c0.zip/node_modules/web-streams-polyfill/",\
+        "packageDependencies": [\
+          ["web-streams-polyfill", "npm:3.3.3"]\
         ],\
         "linkType": "HARD"\
       }]\

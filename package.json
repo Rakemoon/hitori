@@ -3,12 +3,15 @@
   "packageManager": "yarn@4.1.1",
   "devDependencies": {
     "@eslint/js": "^9.1.1",
+    "@types/node": "^20.12.7",
+    "@types/node-fetch": "^2.6.11",
     "eslint": "^9.1.0",
     "globals": "^15.0.0",
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.7.0"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.6.0"
+    "@whiskeysockets/baileys": "^6.6.0",
+    "node-fetch": "^3.3.2"
   }
 }
