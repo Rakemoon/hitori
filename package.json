@@ -1,0 +1,14 @@
+{
+  "name": "hitori",
+  "packageManager": "yarn@4.1.1",
+  "devDependencies": {
+    "@eslint/js": "^9.1.1",
+    "eslint": "^9.1.0",
+    "globals": "^15.0.0",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.7.0"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0"
+  }
+}
